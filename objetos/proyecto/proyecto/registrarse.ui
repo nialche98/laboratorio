@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>registrarse</class>
+ <widget class="QDialog" name="registrarse">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>679</width>
+    <height>428</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="usuario">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>120</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usuario_11">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>320</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sexo:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usuario_8">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>360</y>
+     <width>251</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_registrarse">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>390</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Terminar</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usuario_4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>160</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_7">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>160</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string># targeta de credito:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Datos de contacto</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_10">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>50</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>contraseña:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_11">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>320</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>#celular:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_3">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>120</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Apellido:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Usuario</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usuario_6">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>120</y>
+     <width>201</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nombre:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usuario_3">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>120</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_13">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>360</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>#Cedula:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usuario_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>280</y>
+     <width>221</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usuario_12">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>320</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>#Cedula:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usuario_10">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>50</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_6">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>120</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Fecha nacimiento:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_5">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>160</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Estado civil:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>200</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Femenino</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>#Telefono:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usuario_13">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>50</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_12">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>360</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Correo:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usuario_9">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>360</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usuario_5">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>160</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usuario_7">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>160</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_14">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nombre de usuario:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>200</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Masculino</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>280</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Direccion:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Datos personales</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_15">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>50</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>palabra secreta:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usuario_14">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>50</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>390</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Volver</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

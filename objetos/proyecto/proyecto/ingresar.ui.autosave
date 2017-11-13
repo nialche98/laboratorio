@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ingresar</class>
+ <widget class="QDialog" name="ingresar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>607</width>
+    <height>418</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="id">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>250</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_ingresar">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>350</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ingresar</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="contrasena">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>290</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="dragEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>290</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Contraseña:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>30</y>
+     <width>241</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Screenshot-2017-10-24 Objetos y Programación a Media Escala - Proyecto 2017-2 pdf.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="texto">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>250</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Usuario :</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_registrarse">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>350</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Registrarse</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_registrarse_2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>350</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Preguntas frecuentes </string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

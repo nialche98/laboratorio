@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>carrito</class>
+ <widget class="QDialog" name="carrito">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>647</width>
+    <height>465</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Carrito de compra</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>430</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Volver a productos</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>430</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pago en efectivo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>430</y>
+     <width>101</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pago con tajeta</string>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </column>
+   <item>
+    <property name="text">
+     <string>pollo</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

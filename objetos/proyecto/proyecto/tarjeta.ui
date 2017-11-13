@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tarjeta</class>
+ <widget class="QDialog" name="tarjeta">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>519</width>
+    <height>231</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Titular:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>70</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>70</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Numero :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>70</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>120</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Fecha de nacimiento :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>120</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> Clave de seguridad :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>120</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>200</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Realizar compra</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Volver al carrito</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
